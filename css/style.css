@@ -163,7 +163,7 @@ img {
     letter-spacing: 0.03em;
     color: var(--white);
   }
-  .footer {
+  footer {
     background-color: var(--background);
     padding-bottom: 60px;
     padding-top: 60px;
@@ -246,8 +246,7 @@ img {
     letter-spacing: 0.03em;
     color: var(--main-color);
     text-align: center;
-    padding-bottom: 10px;
-    padding-top: 30px;
+    margin-bottom: 10px;
   }
   .team-text {
     display: block;
@@ -258,7 +257,6 @@ img {
     letter-spacing: 0.03em;
     color: var(--color-contacts);
     text-align: center;
-    padding-bottom: 30px;
   }
 
   .worker {
@@ -266,6 +264,7 @@ img {
   flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
   margin-top: 30px;
+  border-radius: 0px 0px 4px 4px;
 }
 
   .worker:not(:last-child) {
@@ -277,15 +276,16 @@ img {
 }
   .worker-card {
     border-radius: 0px 0px 4px 4px;
+    
   }
   .team-descr {
-    padding-bottom: 10px;
-    padding-top: 30px;
+
     box-sizing: border-box;
     border-left: 1px solid var(--card-border-color);
     border-bottom: 1px solid var(--card-border-color);
     border-right: 1px solid var(--card-border-color);
-    
+    padding-bottom: 90px;
+    padding-top: 30px;
   }
   .team-spec {
     display: flex;
@@ -299,6 +299,7 @@ img {
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
+    
   }
   
   .team-list {
@@ -306,14 +307,14 @@ img {
   }
 
   .team-section {
-    padding-top: 47px;
+    padding-top: 94px;
     padding-bottom: 94px;
     background-color: #f5f4fa;
 
   }
   .activity {
     padding-top: 47px;
-    padding-bottom: 47px;
+    padding-bottom: 94px;
   }
 
   .footer.contacts.item.link {
@@ -426,10 +427,11 @@ img {
   }
 
   .our-contacts {
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .buttons {
     padding-top: 94px;
+    padding-bottom: 94px;
   }
   
   .button-panel {
@@ -450,7 +452,6 @@ img {
     justify-content: center;
     flex-wrap: wrap;
     margin:-30px 0 0 -30px;
-    padding-bottom: 94px;
   }
   .cards {
     margin-top: 30px;
